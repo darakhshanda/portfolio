@@ -8,12 +8,14 @@
 /* global styles */
 
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins&display=swap");
-header {
+/* header  section styles */
+#hero {
   background-image: url("../images/background.webp");
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  min-height: 500px;
   padding: 5%, 7%;
+  background-position: 50%, 70%;
+  background-color: lightgray;
 }
 body {
   font-family: "poppins", sans-serif;
